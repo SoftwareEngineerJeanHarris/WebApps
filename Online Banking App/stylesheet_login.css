@@ -1,0 +1,88 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+html
+{
+  font-family: 'Varela Round', sans-serif;
+    background: linear-gradient(45deg, #b737ff, #4a95fd, #b737ff, #4a95fd);
+background-size: 4000% 4000%;
+    height:100%;
+  
+-webkit-animation: AnimationName 17s ease infinite;
+animation: AnimationName 17s ease infinite;
+
+
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.button
+{
+    xwidth:50px;
+    xheight:50px;
+    xfont-size:25px;
+    xmargin:2px;
+    xcursor: pointer;
+    xbackground:#666699;
+    xborder:none;
+    xcolor:white;
+}
+
+.textview
+{
+    width: 203px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    color:#666699;
+}
+
+.main
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#white_body
+{
+  background-color: white;
+  padding: 30px;
+  xwidth: 600px
+    -webkit-box-shadow: 0px 0px 19px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 19px -5px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 19px -5px rgba(0,0,0,0.75);
+  border-radius: 25px;
+}
+
+.button {
+  background-color: #29BEF4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+}
+
+.button:hover
+{
+  transform: scale(1.07);
+  -webkit-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+}

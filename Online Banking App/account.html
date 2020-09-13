@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ITCS-4102</title>
+    <!-- JQuery library via a Content Delivery Network (CDN) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Naturally it would not make sense for the database information for all clients at the bank to be so public, but this is okay
+    as an example of how to use the JavaScript language -->
+    <script src="/pseudoschema_banking.js"></script>
+
+    <!-- Page specific styling-->
+    <link rel="stylesheet" href="/stylesheet_account.css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  </head>
+  <body>
+    <div id="header">
+
+    </div>
+
+    <div id="body">
+      
+      <div class="main">
+            <div id="white_body">
+
+          <!-- Temporary Layout -->
+          <p id="p-username"></p>
+          <p id="p-firstname"></p>
+          <p id="p-lastname"></p>
+          <p id="p-home"></p>
+          <p id="p-country"></p>
+          <p id="p-state"></p>
+          <p id="p-city"></p>
+
+          <h3 id="h3-balance"></h3>
+          <input id="input-amount" type="text">
+          <br/>
+          <br/>
+              <input id="button-deposit" type="button" value="Deposit" class="button">
+              <input id="button-withdrawl" type="button" value="Withdrawl" class="button">
+              <input id="button-logout" type="button" value="Logout" class="button">
+
+        </div></div>
+    </div>
+
+    <div id="footer">
+
+    </div>
+    <!-- Scripts-->
+    <script src="/jquery_account.js"></script>
+  </body>
+</html>
