@@ -1,0 +1,57 @@
+/*
+
+
+           ||||||||||||||||||||||||||||||||||||||||||||||||||
+           |||                                            |||
+           |||   Welcome, this website is property of     |||
+           |||   Jean-Michael Harris. Feel free to email  |||
+           |||   me at jeanmichael.harris@gmail.com       |||
+           |||   You can contact me on 704 626 8078       |||
+           |||   and my homepage currently can be found   |||
+           |||   at developerharris.glitch.me             |||
+           |||                                            |||
+           ||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+*/
+
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+html
+{
+    background: linear-gradient(to right, #e91e63, #3f51b5);
+    height:100%;
+}
+
+.button
+{
+    width:50px;
+    height:50px;
+    font-size:25px;
+    margin:2px;
+    cursor: pointer;
+    background:#666699;
+    border:none;
+    color:white;
+}
+
+.textview
+{
+    width: 203px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    color:#666699;
+}
+
+.main
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+}
